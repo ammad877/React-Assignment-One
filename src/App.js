@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import All from "./component/all";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 className="Heading one">First React App</h1>
+      <hr />
+      <Objective />
+     
+    </>
+  );
+}
+
+function Objective() {
+  return (
+    <>
+      <h1>Objective</h1>
+      <p>
+        "Looking for a challange role in a organisationto utilize my technical,
+        development and management skills for the growth of an organization as
+        well as to enhance my knowledge about new and emerging it trends im the
+        IT program sector.
+      </p>
+      <All />
+    </>
   );
 }
 
